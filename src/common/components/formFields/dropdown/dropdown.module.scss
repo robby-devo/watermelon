@@ -1,0 +1,73 @@
+@import "../../../../index.scss";
+
+.formControl {
+    position: relative;
+
+    .iconContainer {
+        position: absolute;
+        top: 20%;
+        left: 7%;
+        z-index: 1;
+    }
+
+    .select {
+        height: 40px;
+        padding-left: 10px;
+        color: $tertiaryBlack;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        font-family: $UrbanistRegular;
+        background-image: url(../../../../assets/images/formFieldIcons/dropdownIcon.svg);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 5px) center;
+        border: none;
+        border-radius: 0px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-radius: 4px;
+
+        &.placeholder {
+            color: $tertiaryGray2;
+        }
+    }
+
+    .selectWithBorder {
+        border-radius: 4px;
+        border: 1px solid $tertiaryGray2;
+
+        &.focused {
+            border: 1px solid $primaryPink !important;
+            box-shadow: 0px 0px 24px 0px rgba($primaryPink, 0.15);
+        }
+
+        &:hover {
+            box-shadow: 0px 0px 8px 0px rgba($tertiaryGray6, 0.25);
+        }
+    }
+}
+
+.childRow {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+    .countryIcon {
+        height: 15px;
+        width: 15px;
+    }
+
+    .rowTextStyle {
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        color: $tertiaryBlack;
+        font-size: 14px;
+    }
+
+    .rowSeperator {
+        border-right: 1px solid $tertiaryGray6;
+        width: 1px;
+        height: 14px;
+    }
+
+}

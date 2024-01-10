@@ -1,0 +1,42 @@
+@import '../../../index.scss';
+
+.userswitchContainer {
+  height: 22px;
+  border-radius: 4px;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .MuiTabList-root {
+    height: 22px;
+    border-radius: 6px;
+    padding: 0;
+    min-width: 65px;
+    background: transparent;
+    width: 100%;
+
+    .MuiTab-root {
+      transition: all ease 0.3s;
+      min-height: 20px;
+      border: none;
+      color: $tertiaryGray1;
+      text-align: center;
+      font-size: 10px;
+      font-family: $UrbanistSemiBold;
+      line-height: normal;
+      margin: 1px;
+      flex: 1;
+      border-radius: 4px;
+
+      &:hover {
+        background: $primaryWhite;
+      }
+
+      &.Joy-selected {
+        background: $primaryPink;
+        color: $primaryWhite;
+      }
+    }
+  }
+}

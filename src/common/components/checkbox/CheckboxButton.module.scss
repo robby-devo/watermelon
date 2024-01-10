@@ -1,0 +1,17 @@
+@import '../../../index.scss';
+
+.errorMessage {
+    color: $secondaryRed;
+    font-family: $UrbanistRegular;
+    font-size: 12px;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.checkbox {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,66 @@
+@import "./font.scss";
+@import "./mediaQueries.scss";
+@import "./variables.scss";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  border: none !important;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: $tertiaryGray2;
+    font-family: $UrbanistRegular;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.inputLabelStyles {
+  font-size: 14px;
+  font-family: $UrbanistRegular;
+  color: $tertiaryBlack;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+
+  &.errorStyle {
+    color: $secondaryRed !important;
+  }
+}
+
+.errorBorder {
+  border: 1px solid $secondaryRed !important;
+}
+
+.errorMessage {
+  font-family: $UrbanistItalic;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: $secondaryRed;
+  margin-top: 10px;
+}
+
+.countryDropdown {
+  border-radius: 40px !important;
+  padding-left: 32px !important;
+  background: #EEF2F4;
+
+  /* link styles */
+  .link_primary {
+    font-size: 12px;
+    line-height: 14px;
+    color: $primaryPink;
+    cursor: pointer;
+    font-family: $UrbanistMedium;
+  }
+}

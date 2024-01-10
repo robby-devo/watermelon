@@ -1,0 +1,81 @@
+@import "../../index.scss";
+
+.login {
+  background-color: $primaryWhite;
+
+  height: 100%;
+  background-image: url("../../assets/images/login/login-illustration.svg");
+
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 50px 60px 60px 60px;
+  background-position-y: calc(100% - 50px);
+  font-family: "UrbanistRegular";
+  display: flex;
+  justify-content: space-between;
+  max-width: 1366px;
+  margin: 0 auto;
+
+  &__logoSection {
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    max-width: 462px;
+
+    .getStarted {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 62px;
+      // color: $teritaryGray1;
+      color: $tertiaryGray1;
+      // font-family: $UrbanistBold;
+      font-family: "UrbanistBold";
+
+      &__line1 {
+        // color: $primaryPink;
+        color: #ec187b;
+      }
+    }
+  }
+
+  &__formSection {
+    // background: $primaryWhite;
+    background: #ffffff;
+
+    // box-shadow: 4px 4px 20px rgba($primaryBlack, 0.1); #000000
+
+    box-shadow: 4px 4px 20px rgba(#000000, 0.1) ;
+    flex: 1;
+    width: 446px;
+    // max-width: 446px;
+    max-width: 460px;
+
+    display: flex;
+  }
+}
+
+@include maxWidth(1080) {
+  .login {
+    padding: 50px 40px 60px 40px;
+    background-position-x: 189%;
+    background-size: 116%;
+
+    .logo {
+      img {
+        width: 80%;
+      }
+    }
+
+    .getStarted {
+      font-size: 28px;
+      line-height: 44px;
+      max-width: 290px;
+    }
+
+    &__formSection {
+      max-width: 400px !important;
+      width: 400px !important;
+    }
+  }
+}

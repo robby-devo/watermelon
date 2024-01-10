@@ -1,0 +1,35 @@
+@import "../../../../index.scss";
+
+.fieldWrapper {
+    border-radius: 4px;
+    border: 1px solid $tertiaryGray2;
+    display: flex;
+    width: 400px;
+    height: 40px;
+
+    &:has(input:focus-visible) {
+        border: 1px solid $primaryPink  !important;
+        box-shadow: 0px 0px 24px rgba($primaryPink, 0.15) !important;
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 8px 0px rgba($tertiaryGray6, 0.25);
+    }
+
+    .inputField {
+        flex: 1;
+        border-radius: 4px;
+        border: none !important;
+        color: $tertiaryBlack;
+        font-size: 14px;
+        font-family: $UrbanistRegular;
+    }
+
+    .rowSeperator {
+        border-right: 1px solid $tertiaryGray6;
+        width: 1px;
+        height: 20px;
+        margin-right: 8px;
+        align-self: center;
+    }
+}

@@ -1,0 +1,109 @@
+@import '../../../index.scss';
+
+.sidenavContainer {
+  background: $primaryLightGreen;
+  // height: 100vh;
+  width: 169px;
+  position: relative;
+  z-index: 1;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    background: url("../../../assets/images/logobg.svg") no-repeat;
+  }
+
+  .logoContainer {
+    padding: 15px 20px 0 20px;
+    margin-bottom: 26px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .avatarContainer {
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      bottom: -15px;
+      left: 12px;
+      background: url("../../../assets/images/avatarbg.svg") no-repeat;
+    }
+  }
+
+  .divider {
+    margin: 20px 19.5px 14px;
+    background: $primaryWhite;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    .link {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      padding: 6px 20px;
+      cursor: pointer;
+
+      &:hover {
+        background: $primaryGreen;
+      }
+
+      p {
+        color: $primaryWhite;
+        font-family: $UrbanistSemiBold;
+        font-size: 10px;
+        line-height: normal;
+        text-align: left;
+      }
+    }
+
+    .divider {
+      margin: 10px 20px;
+    }
+  }
+}
+
+.selected {
+  background: $primaryGreen;
+}
+
+.moreLink {
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: $tertiaryBlack;
+  font-size: 14px;
+  font-family: $UrbanistRegular;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background: $tertiaryGray9;
+  }
+}
+
+.tooltipBtn {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  height: 44px;
+  cursor: pointer;
+  left: 0;
+}

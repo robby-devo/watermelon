@@ -1,0 +1,14 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Property 1=Cart, Property 2=Default" clip-path="url(#clip0_793_1976)">
+<g id="Group 1000007135">
+<path id="Vector" d="M11.1858 28.9961C11.8887 28.9961 12.4585 28.4206 12.4585 27.7106C12.4585 27.0006 11.8887 26.425 11.1858 26.425C10.4829 26.425 9.91309 27.0006 9.91309 27.7106C9.91309 28.4206 10.4829 28.9961 11.1858 28.9961Z" stroke="#383434" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M25.1824 29C25.8853 29 26.4551 28.4245 26.4551 27.7145C26.4551 27.0045 25.8853 26.4289 25.1824 26.4289C24.4795 26.4289 23.9097 27.0045 23.9097 27.7145C23.9097 28.4245 24.4795 29 25.1824 29Z" stroke="#383434" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M1 1H6.09091L9.50182 18.8529C9.6182 19.4667 9.93697 20.0181 10.4023 20.4106C10.8677 20.803 11.45 21.0115 12.0473 20.9995H24.4182C25.0155 21.0115 25.5978 20.803 26.0631 20.4106C26.5285 20.0181 26.8473 19.4667 26.9636 18.8529L29 7.6665H7.36364" stroke="#383434" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_793_1976">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>

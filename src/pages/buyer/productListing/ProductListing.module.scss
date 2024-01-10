@@ -1,0 +1,80 @@
+@import '../../../index.scss';
+
+.container {
+    display: flex;
+    width: 100%;
+    // height: 100%;
+    margin-top: 30px;
+    // flex-direction: column;
+
+    .cardsContainer {
+        // height: 100vh;
+        // padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        overflow: auto;
+        // padding-left: 30px;
+        flex: 1;
+
+        .cards {
+            background-color: blue;
+            width: 242px;
+            height: 360px;
+        }
+    }
+
+    .filter {
+        width: 291px;
+        height: 1190px;
+        background: $primaryWhite;
+        border-radius: 6px;
+    }
+
+    .paginationContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.itemViewedPreviously {
+    margin-top: 53px;
+
+    .headingContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .previousItemContainer {
+        background: $primaryWhite;
+        display: flex;
+        // gap: 85px;
+        gap: 12px;
+        padding: 30px 40px;
+        border-radius: 6px;
+
+        .headingContainer {
+            p {
+                color: #383434;
+                font-family: $UrbanistRegular;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.5px;
+            }
+
+            button {
+                color: #EC187B;
+                text-align: right;
+                font-family: $UrbanistRegular;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}

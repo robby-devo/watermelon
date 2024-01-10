@@ -1,0 +1,17 @@
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="IQ">
+<rect id="Mask" x="0.5" y="0.5" width="14" height="14" fill="white" stroke="#F5F5F5"/>
+<mask id="mask0_808_1680" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="15" height="15">
+<rect id="Mask_2" x="0.5" y="0.5" width="14" height="14" fill="white" stroke="white"/>
+</mask>
+<g mask="url(#mask0_808_1680)">
+<path id="Rectangle 2" fill-rule="evenodd" clip-rule="evenodd" d="M0 5H15V0H0V5Z" fill="#DF1E35"/>
+<path id="Rectangle 2_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 14.9941H15V9.99414H0V14.9941Z" fill="#262626"/>
+<path id="Rectangle 213" fill-rule="evenodd" clip-rule="evenodd" d="M10 6.00781L10.7143 6.50781V9.00781H10V6.00781Z" fill="#0F7A40"/>
+<path id="Rectangle 213_2" fill-rule="evenodd" clip-rule="evenodd" d="M5.71387 6.00781L6.42815 6.50781V9.00781H5.71387V6.00781Z" fill="#0F7A40"/>
+<path id="Rectangle 213_3" fill-rule="evenodd" clip-rule="evenodd" d="M8.57129 6.50781L9.28557 6.00781V9.00781H8.57129V6.50781Z" fill="#0F7A40"/>
+<path id="Rectangle 213_4" fill-rule="evenodd" clip-rule="evenodd" d="M7.14258 7.49775L7.85686 6.99775V8.04254H8.92829V8.99775H7.85686H7.14258V7.49775Z" fill="#0F7A40"/>
+<path id="Rectangle 213_5" fill-rule="evenodd" clip-rule="evenodd" d="M4.28516 7.49775L4.99944 6.99775V8.04254H6.07087V8.99775H4.99944H4.28516V7.49775Z" fill="#0F7A40"/>
+</g>
+</g>
+</svg>

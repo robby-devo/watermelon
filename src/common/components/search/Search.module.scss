@@ -1,0 +1,53 @@
+@import '../../../index.scss';
+
+.container {
+    margin-left: 30px;
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+    border: 1px solid $tertiaryGray1;
+    align-items: center;
+    border-radius: 40px;
+    overflow: hidden;
+    background: $primaryGrayBackground;
+    padding-left: 5px;
+
+
+    input {
+        background: $primaryGrayBackground;
+        width: 100%;
+        padding: 10px 20px;
+        outline: none;
+        font-family: $UrbanistRegular;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.07px;
+    }
+
+    .globalSearch {
+        position: absolute;
+        right: 3px;
+        top: 4px;
+
+    }
+
+    .dropdownContainer {
+        display: flex;
+        min-width: 145px;
+        align-items: center;
+        background: $primaryGrayBackground;
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 8px 0px #16202E40;
+        background: $primaryWhite;
+
+        .dropdownContainer,
+        input {
+            background: $primaryWhite;
+        }
+    }
+
+}

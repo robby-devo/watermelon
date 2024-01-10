@@ -1,0 +1,76 @@
+@import '../../../index.scss';
+
+.productCardCtaContainer {
+  max-width: 96px;
+
+  .ctaButton {
+    width: 100%;
+    border: none;
+    background: $primaryPink;
+    color: $primaryWhite;
+    font-size: 14px;
+    font-family: $UrbanistRegular;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    padding: 9px 0;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .addItemValueContainer {
+    max-width: 96px;
+    border: 1px solid $primaryPink;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .addItemValueButton {
+      flex: 1;
+      background: transparent;
+      border: none;
+      padding: 8.2px 0;
+      cursor: pointer;
+      color: $primaryPink;
+    }
+
+    .minus {
+      border-right: 1px solid $primaryPink;
+      cursor: pointer;
+    }
+
+    .plus {
+      border-left: 1px solid $primaryPink;
+      cursor: pointer;
+    }
+
+    .addItemValue {
+      flex: 1;
+      color: $tertiaryBlack;
+      text-align: center;
+      font-size: 12px;
+      font-family: $UrbanistRegular;
+      line-height: normal;
+      letter-spacing: 0.5px;
+      border: none;
+      background: none;
+      width: 100%;
+      outline: none;
+      flex: 1;
+      height: 100%;
+      padding: 9px 0;
+    }
+  }
+
+  .hideCta {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .showItemValueContainer {
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+
+}

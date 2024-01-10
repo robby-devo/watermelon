@@ -1,0 +1,249 @@
+@import '../../../index.scss';
+
+.productCardWithCartContainer {
+    min-width: 242px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: $primaryWhite;
+    box-shadow: 0 0 24px rgba($primaryBlack, 0.15);
+
+    .backgroundImage {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        height: 121px;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+
+        .imgHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: $UrbanistBold;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            margin: 8px;
+            padding: 0 8px;
+
+            .tbcContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 24px;
+                height: 18px;
+                color: $primaryBlack;
+                border: 1px solid $primaryBlack;
+                font-size: 10px;
+                border-radius: 2px;
+                line-height: normal;
+                background: $secondaryYellow;
+            }
+
+            .wishlist {
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .offerContainer {
+            position: absolute;
+            top: 75px;
+            left: -15px;
+            overflow: hidden;
+            background: $primaryWhite;
+            height: 76px;
+            width: 76px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 5px;
+            padding-left: 14px;
+            font-family: $UrbanistSemiBold;
+            gap: 3px;
+
+            .offerDetails {
+                font-size: 14px;
+                padding-left: 10px;
+                align-self: flex-start;
+                color: $primaryPink;
+            }
+
+            .offerValue {
+                font-size: 14px;
+                color: $primaryPink;
+            }
+
+            .offerText {
+                margin-right: 2px;
+                margin-top: -3px;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .offerOff {
+                font-size: 10px;
+                color: $primaryPink;
+            }
+        }
+    }
+
+    .horizontalDivider {
+        height: 1px;
+        width: 100%;
+        background: $tertiaryGray3;
+    }
+
+    .productDetailsCard {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .productName {
+            overflow: hidden;
+            color: $tertiaryBlack;
+            text-overflow: ellipsis;
+            font-family: $UrbanistSemiBold;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.5px;
+        }
+
+        .productDetailsTags {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .countryFlag {
+                display: flex;
+            }
+
+            .countryName {
+                color: $tertiaryGray1;
+                font-family: $UrbanistRegular;
+                font-size: 14px;
+                line-height: normal;
+                letter-spacing: 0.5px;
+            }
+
+            .verticalDivider {
+                width: 1px;
+                height: 100%;
+                background: $tertiaryGray3;
+                margin: 0 5px;
+            }
+        }
+
+        .priceSupplierNameContainer {
+            margin-top: 14px;
+
+            .priceContainer {
+                display: flex;
+                align-items: end;
+                gap: 6px;
+
+                .salePriceContainer {
+                    span:first-child {
+                        margin-right: 4px;
+                    }
+
+                    .salePrice {
+                        color: $primaryPink;
+                        font-family: $UrbanistLight;
+                        font-size: 24px;
+                        line-height: normal;
+                        letter-spacing: 0.5px;
+                    }
+
+                    color: $primaryPink;
+                    font-family: $UrbanistLight;
+                    font-size: 10px;
+                    line-height: normal;
+                    letter-spacing: 0.5px;
+                }
+
+                .originalPriceContainer {
+                    color: $tertiaryGray3;
+                    font-family: $UrbanistLight;
+                    font-size: 12px;
+                    line-height: 8px;
+                    letter-spacing: 0.5px;
+                    text-decoration-line: line-through;
+                    padding-bottom: 6px;
+                }
+
+            }
+
+            .supplierName {
+                color: $tertiaryGray1;
+                font-family: $UrbanistRegular;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: normal;
+                letter-spacing: 0.5px;
+            }
+        }
+
+        .buttonContainer {
+            position: relative;
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.disableCard {
+    filter: grayscale(100%);
+    pointer-events: none;
+}
+
+.outOfStockButton {
+    color: $tertiaryBlack;
+    text-align: center;
+    font-family: $UrbanistRegular;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    border-radius: 6px;
+    background: $tertiaryGray3;
+    padding: 13px;
+    flex: 1;
+}
+
+.addToCartButton {
+    display: flex;
+    gap: 10px;
+    margin-left: -10px;
+}
+
+.delivered {
+    color: $tertiaryBlack;
+    font-family: $UrbanistSemiBold;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.deliveredHeight {
+    height: 297px
+}
+.tinyLogoPlaceholder{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.5);
+}

@@ -1,0 +1,66 @@
+@import "../../../index.scss";
+
+.commonBtn {
+    // padding: 15px 19px;
+    height: 36px;
+    background: $primaryPink;
+    border: 1px solid transparent;
+    color: $primaryWhite;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    font-family: $UrbanistRegular;
+    // line-height: normal;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    width: 100%;
+}
+
+.largeBtn {
+    // padding: 15px 49px;
+}
+
+.secondary {
+    border: 1px solid $primaryPink;
+    background: $primaryWhite;
+    color: $primaryPink;
+    transition: all ease 0.5s;
+
+    &:hover {
+        background: $tertiaryGray4;
+    }
+}
+
+.disabled {
+    background: $tertiaryGray3;
+    color: $primaryBlack;
+    border: transparent;
+
+    &:hover {
+        background: $tertiaryGray3;
+    }
+}
+
+.disableSecondary {
+    background: $tertiaryGray5;
+    background: $tertiaryGray4;
+    color: $primaryBlack;
+    border-color: $tertiaryGray3;
+
+    &:hover {
+        background: $tertiaryGray5;
+        background: $tertiaryGray4;
+    }
+}
+
+.link {
+    background: transparent;
+    border: none;
+    color: $primaryPink;
+    transition: all ease 0.5s;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

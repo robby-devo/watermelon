@@ -1,0 +1,15 @@
+@import "./common/styles/common.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  font-family: $UrbanistRegular;
+}
+#root, .App, .parent_container, .content_container{
+  height: 100%;
+}

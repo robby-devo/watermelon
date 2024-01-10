@@ -1,0 +1,11 @@
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="QA">
+<rect id="Mask" x="0.5" y="0.5" width="14" height="14" fill="white" stroke="#F5F5F5"/>
+<mask id="mask0_808_1749" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="15" height="15">
+<rect id="Mask_2" x="0.5" y="0.5" width="14" height="14" fill="white" stroke="white"/>
+</mask>
+<g mask="url(#mask0_808_1749)">
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M14.9994 0H4.28516L5.35658 1L4.28516 2L5.35658 3L4.28516 4L5.35658 5L4.28516 6L5.35658 7L4.28516 8L5.35658 9L4.28516 10L5.35658 11L4.28516 12L5.35658 13L4.28516 14L5.35658 15H14.9994V0Z" fill="#A6264C"/>
+</g>
+</g>
+</svg>

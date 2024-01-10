@@ -1,0 +1,269 @@
+@import 'common/styles/variables.scss';
+
+.css-1anqmj6-MuiPopper-root-MuiPickersPopper-root {
+    width: 400px;
+
+    .MuiDateCalendar-root,
+    .css-1lkpf4l-MuiYearCalendar-root {
+        width: 100%;
+    }
+
+    .css-cyfsxc-MuiPickersCalendarHeader-labelContainer {
+        color: #1C1919;
+        text-align: center;
+        font-family: $UrbanistSemiBold;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        width: 100%;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+
+    .css-12mkn7b-MuiButtonBase-root-MuiIconButton-root-MuiPickersCalendarHeader-switchViewButton,
+    .css-sf5j28-MuiButtonBase-root-MuiIconButton-root-MuiPickersCalendarHeader-switchViewButton {
+        display: none;
+    }
+
+    .css-dplwbx-MuiPickersCalendarHeader-label {
+        margin: 0;
+    }
+
+    .css-kg9q0s-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button,
+    .css-1nkg345-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button {
+        color: #EC187B;
+    }
+
+    .css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition {
+        min-height: 284px;
+    }
+
+    .css-cwhad8-MuiDateCalendar-root {
+        max-height: auto;
+    }
+
+    .css-i5q14k-MuiDayCalendar-header,
+    .css-flbe84-MuiDayCalendar-weekContainer {
+        gap: 20px;
+    }
+
+    .css-nk89i7-MuiPickersCalendarHeader-root {
+        position: relative;
+        min-height: 55px;
+        margin: 0;
+        background: #FFEDED;
+
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 90%;
+            height: 1px;
+            background-color: #EC187B;
+            z-index: 1;
+            left: 4%;
+        }
+    }
+
+    .css-5m299p-MuiButtonBase-root-MuiPickersDay-root,
+    .css-qa7bje-MuiButtonBase-root-MuiPickersDay-root {
+        height: 30px;
+        width: 30px;
+    }
+
+    .css-12p2adl-MuiDayCalendar-monthContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .css-5m299p-MuiButtonBase-root-MuiPickersDay-root {
+        color: #B9B9B9;
+
+    }
+
+    .css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {
+        color: #383434;
+        text-align: center;
+        font-family: $UrbanistRegular;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+
+    .css-qa7bje-MuiButtonBase-root-MuiPickersDay-root.Mui-disabled:not(.Mui-selected) {
+        background: rgba(154, 165, 186, 0.10);
+        color: #383434;
+        text-align: center;
+        font-family: $UrbanistRegular;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .css-qa7bje-MuiButtonBase-root-MuiPickersDay-root.Mui-selected,
+    .css-1jsy6pn-MuiButtonBase-root-MuiPickersDay-root.Mui-selected,
+    .css-qa7bje-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+        border: none;
+        color: #fff;
+        transition: none;
+        background-color: #EC187B !important;
+        height: 30px;
+        width: 30px;
+
+        &:hover {
+            background-color: #EC187B;
+        }
+    }
+
+    .css-1beqopj-MuiPickersYear-yearButton.Mui-selected {
+        &:hover {
+            background-color: #EC187B;
+        }
+
+        background-color: #EC187B;
+    }
+
+    .css-i5q14k-MuiDayCalendar-header {
+        gap: 10px;
+        justify-content: space-between;
+        padding: 0 12px;
+        ;
+    }
+
+    .css-1jsy6pn-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+        background: transparent !important;
+        border-color: #EC187B;
+        height: 30px;
+        width: 30px;
+    }
+
+    .css-1anqmj6-MuiPopper-root-MuiPickersPopper-root .css-flbe84-MuiDayCalendar-weekContainer {
+        gap: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 14px;
+    }
+
+    .css-1vooibu-MuiSvgIcon-root,
+    .MuiIconButton-edgeEnd.Mui-disabled {
+        display: none;
+    }
+
+    .MuiIconButton-edgeEnd {
+        background: url('assets/images/rightCalender.svg') no-repeat;
+        background-size: 100%;
+        transform: scale(1.5)
+    }
+
+    .MuiIconButton-edgeStart {
+        background: url('assets/images/leftCalender.svg') no-repeat;
+        transform: scale(1.5);
+        background-size: 100%;
+    }
+}
+
+.DatePicker_datePickerContainer__SvPRw {
+    .MuiInputBase-root {
+        border-radius: 4px;
+        border: 1px solid #949494;
+        background: #FFF;
+        box-shadow: 0px 0px 8px 0px rgba(22, 32, 46, 0.25);
+        outline: none;
+        max-height: 40px;
+        max-width: 400px;
+        flex-direction: row-reverse;
+
+        input {
+            color: #1C1919;
+            font-family: $UrbanistRegular;
+            font-size: 14px;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            outline: none;
+            padding-left: 10px;
+        }
+
+        .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+            padding: 0;
+            border-color: transparent !important;
+        }
+
+        .css-1laqsz7-MuiInputAdornment-root {
+            margin: 0;
+        }
+
+        .css-i4bv87-MuiSvgIcon-root {
+            display: none;
+        }
+
+        .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+            background: url('assets/images/calender.svg') no-repeat;
+            background-size: 97%;
+            margin: 0 10px;
+            position: relative;
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: -10px;
+                transform: translateY(-50%);
+                width: 1px;
+                height: 20px;
+                background-color: #9AA5BA;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+.RangeDatePicker_container__zkic0 {
+    .DatePicker_datePickerContainer__SvPRw {
+
+        .label,
+        .error {
+            position: absolute;
+        }
+
+        .MuiInputBase-root {
+            border-radius: 4px 0 0 4px;
+            border: none;
+            background: #FFF;
+            box-shadow: none;
+            outline: none;
+            max-height: 36px;
+            max-width: 400px;
+
+            input {
+                color: #1C1919;
+                font-family: "UrbanistRegular";
+                font-size: 14px;
+                line-height: normal;
+                letter-spacing: 0.5px;
+                outline: none;
+                height: 100%;
+                padding: 12px 0;
+                padding-left: 12px;
+            }
+        }
+    }
+
+    .DatePicker_datePickerContainer__SvPRw:last-child {
+        .MuiInputBase-root {
+            border-radius: 0 4px 4px 0;
+        }
+    }
+
+    .DatePicker_datePickerContainer__SvPRw .MuiInputBase-root .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+        &::after {
+            content: none;
+        }
+    }
+}

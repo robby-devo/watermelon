@@ -1,0 +1,42 @@
+@import '../../../index.scss';
+
+.datePickerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    .label {
+        position: relative;
+
+        sup {
+            position: absolute;
+        }
+    }
+
+    .label,
+    .error {
+        color: $teritaryBlack;
+        font-family: $UrbanistRegular;
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+
+    .error {
+        color: $secondaryRed;
+
+        sup {
+            color: $secondaryRed;
+            position: absolute;
+        }
+    }
+
+    .errorMessage {
+        color: $secondaryRed;
+        font-style: italic;
+        font-family: $UrbanistRegular;
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+}
